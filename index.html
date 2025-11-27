@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Randomizer</title>
+    <script src="numRandomizer.js" defer></script>
+    <link href="src/tailwindstyles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Alef:wght@400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-neutral-900 select-none">
+    <header>
+        <h1 class="m-2 p-2 pl-4 text-neutral-50 font-semibold text-[35px]">Number Randomizer</h1>
+    </header>
+
+    <main class=" p-5 flex justify-center">
+        <div class="grid grid-cols-8 grid-rows-12 gap-2">
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            <div class="number">0</div>
+            
+            
+
+        </div>
+
+        
+    </main>
+
+    <div class="absolute bottom-0 right-0 m-5">
+            <div class="randomizeBtn bg-transparent border-[1.5px] border-blue-700 flex justify-center rounded-full text-neutral-50 m-2 mt-3 hover:bg-blue-700 hover:scale-[1.07] transition duration-300 cursor-pointer ">
+                Randomize
+            </div>
+            <div class="flex justify-between bg-neutral-50 p-2 rounded-full text-neutral-900 m-2">
+                <span class="translate-y-0.5 ">Odd</span><input id="oddColor" type="color" value="#047857">
+            </div>
+            <div class="flex justify-between bg-neutral-50 p-2 rounded-full text-neutral-900 m-2">
+                <span class="translate-y-0.5">Even</span><input id="evenColor" type="color" value="#f59e0b">
+            </div>
+            <div class="updateBtn bg-transparent border-[1.5px] border-emerald-600 pr-2 pl-2 flex justify-center rounded-full text-neutral-50 m-2 mt-3 hover:bg-emerald-600 hover:scale-[1.07] transition duration-300 cursor-pointer ">
+                Update Color
+            </div>
+    </div>
+    
+</body>
+<style>
+    *{
+        font-family: 'Alan Sans', sans-serif;
+    }
+
+    footer{
+        font-family: 'Alan Sans', sans-serif;
+    }
+
+    .s-tier{
+        animation-name: SSSanim;
+        animation-duration: 3s;
+        transition: background-color 3s ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes SSSanim {
+        0%{
+            background-color: red
+        }
+        10%{
+            background-color: orangered;
+        }
+        20%{
+            background-color: rgb(255, 251, 0);
+        }
+        40%{
+            background-color: rgb(32, 218, 72);
+        }
+        50%{
+            background-color: #ea08ea;
+        }
+        60%{
+            background-color: #a3e635;
+        }
+        70%{
+            background-color: #16a34a;
+        }
+        80%{
+            background-color: cyan
+        }
+        95%{
+            background-color: black;
+        }
+        100%{
+            background-color: whitesmoke;
+        }
+    }
+</style>
+</html>

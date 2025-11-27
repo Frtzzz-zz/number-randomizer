@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.number{
+  @apply h-[70px] w-[70px] bg-amber-500 rounded-md text-neutral-50 
+         text-[25px] font-semibold flex justify-center items-center;
+}
